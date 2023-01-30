@@ -1,0 +1,313 @@
+.About{
+    width: 100%;
+    height: 100vh;
+}
+.About_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.image_container{
+    width: 50%;
+}
+.profile_img{
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+    padding: 0px 10rem;
+    border-radius: 50%;
+}
+.description_container{
+    width: 50%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.header > p{
+    font-size: 3rem;
+    color: #333333;
+    font-weight: 480;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.names{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: bolder;
+    font-size: 5.5rem;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 1.5px;
+}
+.names > p{
+    color: #8444df;
+}
+.names > span{
+    color: #333333;
+}
+.description{
+    width: 70%;
+    color: #5f6f81;
+    display: flex;
+    align-items: center;
+    line-height: 70px;
+    font-size: 2.8rem;
+}
+.description > p > span{
+    color: #8444df;
+    margin: 0px 1rem;
+}
+.button_container{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    /* cursor: pointer !important; */
+
+}
+.iconz{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.icon_background{
+    width: 70px;
+    padding: 1rem 1rem;
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.21);
+-webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.21);
+-moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.21);
+}
+.About_icon{
+    color: #8444df !important;
+    font-size: 4rem !important;
+}
+.resume{
+    width: 17rem;
+    font-size: 2rem;
+    height: 5.5rem;
+    outline: 0;
+    border: 0;
+    background-color: #8444df;
+    color: white;
+    border-radius: 50px;
+}
+@media screen and (max-width: 642px) {
+    .About_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+        text-align: center;
+    }
+    .image_container{
+        width: 100%;
+    }
+    .profile_img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        padding: 2rem 5.5rem;
+    }
+    .description_container{
+        width: 100%;
+    }
+    .header{
+        gap: 1.8rem;
+    }
+    .header > p{
+        font-size: 0.95rem;
+    }
+    .names{
+        align-self: center;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+    .description{
+        width: 100%;
+        align-self: center;
+        color: #5f6f81;
+        display: flex;
+        align-items: center;
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 0.95rem;
+    }
+    .description > p > span{
+        color: #8444df;
+        margin: 0px 0.3rem;
+    }
+    .button_container{
+        width: 100%;
+        gap: 10%;
+        flex-direction: column;
+        gap: 3rem;
+    
+    }
+    .iconz{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .icon_background{
+        width: 30px;
+        padding: 0.5rem 0.5rem;
+        height: 20px;
+    }
+    .About_icon{
+        font-size: 1.3rem !important;
+    }
+    .resume{
+        width: 30%;
+        font-size: 0.95rem;
+        height: 2.8rem;
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 1007px) and (min-width: 642px) {
+    .About_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+        text-align: center;
+    }
+    .image_container{
+        width: 100%;
+    }
+    .profile_img{
+        width: 330px;
+        height: 330px;
+        object-fit: cover;
+        padding: 2rem 5.5rem;
+    }
+    .description_container{
+        width: 70%;
+    }
+    .header{
+        gap: 3rem;
+    }
+    .header > p{
+        font-size: 0.95rem;
+    }
+    .names{
+        align-self: center;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+    .description{
+        width: 100%;
+        align-self: center;
+        color: #5f6f81;
+        display: flex;
+        align-items: center;
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 0.95rem;
+    }
+    .description > p > span{
+        color: #8444df;
+        margin: 0px 0.3rem;
+    }
+    .button_container{
+        gap: 5rem;
+        align-self: center;
+        margin-top: 3rem;
+    }
+    .iconz{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .icon_background{
+        width: 30px;
+        padding: 0.5rem 0.5rem;
+        height: 20px;
+    }
+    .About_icon{
+        font-size: 1.3rem !important;
+    }
+    .resume{
+        width: 10rem;
+        font-size: 0.95rem;
+        height: 2.8rem;
+        border-radius: 50px;
+    }
+}
+@media screen and  (min-width: 1009px) and (max-width: 2400px){
+    .About_container{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+    .image_container{
+        width: 50%;
+    }
+    .profile_img{
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
+        padding: 2rem 5.5rem;
+    }
+    .description_container{
+        width: 50%;
+    }
+    .header{
+        gap: 1.8rem;
+    }
+    .header > p{
+        font-size: 0.95rem;
+    }
+    .names{
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+    .description{
+        width: 100%;
+        align-self: center;
+        color: #5f6f81;
+        display: flex;
+        align-items: center;
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 0.95rem;
+    }
+    .description > p > span{
+        color: #8444df;
+        margin: 0px 0.3rem;
+    }
+    .button_container{
+        width: 100%;
+        gap: 10%;
+        gap: 3rem;
+    
+    }
+    .iconz{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .icon_background{
+        width: 30px;
+        padding: 0.5rem 0.5rem;
+        height: 20px;
+    }
+    .About_icon{
+        font-size: 1.3rem !important;
+    }
+    .resume{
+        width: 30%;
+        font-size: 0.95rem;
+        height: 2.8rem;
+        border-radius: 50px;
+    }
+}

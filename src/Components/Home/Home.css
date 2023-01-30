@@ -1,0 +1,11 @@
+.Home{
+    background-color: #f7f7f7;
+    position: relative;
+}
+.home_side_bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

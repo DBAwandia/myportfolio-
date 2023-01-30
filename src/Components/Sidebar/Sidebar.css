@@ -1,0 +1,92 @@
+.Sidebar{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.Sidebar >p{
+    position: absolute;
+    bottom: 5%;
+    font-size: 0.95rem;
+    left: 10%;
+    color: white;
+    z-index: 99999999;
+}
+.togle_close_sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0,0.943);
+
+}
+.icons_name_sidebar:hover{
+    color: rgb(207, 201, 201);
+}
+.SidebarNavbar_container{
+    padding: 8rem 3rem;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999;
+    height: 100vh;
+    background-color: #8444df;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.icons_name_sidebar{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+@media screen and (max-width: 1007px) and (min-width: 642px) {
+    .Sidebar{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        text-align: center;
+    }
+    .Sidebar >p{
+        position: absolute;
+        bottom: 5%;
+        font-size: 0.95rem;
+        left: 10%;
+        color: white;
+        z-index: 99999999;
+    }
+    .togle_close_sidebar{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0,0.943);
+    }
+    .SidebarNavbar_container{
+        padding: 8rem 5rem;
+        width: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 9999999;
+        height: 100vh;
+        background-color: #8444df;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .icons_name_sidebar{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+}
