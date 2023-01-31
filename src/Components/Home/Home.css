@@ -1,6 +1,9 @@
 .Home{
     background-color: #f7f7f7;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 .home_side_bar{
     position: fixed;
@@ -8,4 +11,10 @@
     left: 0;
     bottom: 0;
     right: 0;
+    z-index: 999999999999999;
+}
+.Home_navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999999999999999999999999999999999;
 }

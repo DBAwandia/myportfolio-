@@ -1,16 +1,17 @@
 .About{
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 .About_container{
     width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     gap: 5rem;
 }
 .image_container{
     width: 50%;
+  
 }
 .profile_img{
     width: 800px;
@@ -18,6 +19,7 @@
     object-fit: cover;
     padding: 0px 10rem;
     border-radius: 50%;
+  
 }
 .description_container{
     width: 50%;
@@ -137,7 +139,7 @@
         color: #5f6f81;
         display: flex;
         align-items: center;
-        line-height: 23px;
+        line-height: 25px;
         letter-spacing: normal;
         font-size: 0.95rem;
     }

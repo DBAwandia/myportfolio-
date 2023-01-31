@@ -2,9 +2,14 @@
     width: 100%;
     height: 15vh;
     background-color: #8444df;
-    color: white;
+    color: rgb(228, 225, 225);
     position: relative;
     overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: rgb(228, 225, 225);
+
 }
 .icons{
     display: none !important;

@@ -2,6 +2,7 @@ import { HomeOutlined, HomeRepairServiceOutlined, LaptopOutlined, LocalPhoneOutl
 import React from 'react'
 import "./Sidebar.css"
 import 'animate.css';
+import { HashLink  } from 'react-router-hash-link';
 
 function Sidebar({setOpen}) {
   return (
@@ -14,18 +15,27 @@ function Sidebar({setOpen}) {
     >
     </div>
       <div className='animate__animated animate__slideInDown SidebarNavbar_container'>
-        <div className='icons_name_sidebar'>
-          <HomeOutlined className='icon'/>
-          <p>Home</p>
-        </div>
-        <div className='icons_name_sidebar'>
-          <PersonOutlineOutlined className='icon'/>
-          <p>About</p>
-        </div>
-        <div className='icons_name_sidebar'>
-          <LaptopOutlined className='icon'/>
-          <p>Skills</p>
-        </div>
+        <HashLink to="#home">
+          <div className='icons_name_sidebar'>
+            <HomeOutlined className='icon'/>
+            <p>Home</p>
+          </div>
+        </HashLink>
+        
+        <HashLink to="#about">
+          <div className='icons_name_sidebar'>
+            <PersonOutlineOutlined className='icon'/>
+            <p>About</p>
+          </div>
+        </HashLink>
+
+        <HashLink to="#skill">
+          <div className='icons_name_sidebar'>
+            <LaptopOutlined className='icon'/>
+            <p>Skills</p>
+          </div>
+        </HashLink>
+
         <div className='icons_name_sidebar'>
           <HomeRepairServiceOutlined className='icon'/>
           <p>Works</p>

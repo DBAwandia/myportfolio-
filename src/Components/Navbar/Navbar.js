@@ -1,16 +1,17 @@
 import React from 'react'
 import "./Navbar.css"
 import { DehazeOutlined, HomeOutlined, HomeRepairServiceOutlined, LaptopOutlined, LocalPhoneOutlined, PersonOutlineOutlined } from "@mui/icons-material"
-
+import { HashLink  } from 'react-router-hash-link';
 function Navbar({setOpen}) {
   return (
     <div className='Navbar'>
       <div className='Navbar_container'>
-        <div className='icons_name'>
-          <HomeOutlined className='icon'/>
-          <p>Home</p>
-        </div>
-        
+        <HashLink to="#home">
+          <div className='icons_name'>
+            <HomeOutlined className='icon'/>
+            <p>Home</p>
+          </div>
+        </HashLink>
       <DehazeOutlined className='icons'
         onClick={()=>{
           setOpen(true)
@@ -18,14 +19,20 @@ function Navbar({setOpen}) {
       />
 
       <div className='Navbar_container_objects'>
-        <div className='icons_name'>
-          <PersonOutlineOutlined className='icon'/>
-          <p>About</p>
-        </div>
-        <div className='icons_name'>
-          <LaptopOutlined className='icon'/>
-          <p>Skills</p>
-        </div>
+        <HashLink to="#about">
+          <div className='icons_name'>
+            <PersonOutlineOutlined className='icon'/>
+            <p>About</p>
+          </div>
+        </HashLink>
+
+        <HashLink to="#skill">
+          <div className='icons_name'>
+            <LaptopOutlined className='icon'/>
+            <p>Skills</p>
+          </div>
+        </HashLink>
+
         <div className='icons_name'>
           <HomeRepairServiceOutlined className='icon'/>
           <p>Works</p>
