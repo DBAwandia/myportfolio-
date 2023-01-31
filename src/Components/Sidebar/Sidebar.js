@@ -15,34 +15,51 @@ function Sidebar({setOpen}) {
     >
     </div>
       <div className='animate__animated animate__slideInDown SidebarNavbar_container'>
-        <HashLink to="#home">
+        <HashLink to="#home" onClick={()=>{
+            setOpen(false)
+        }}>
           <div className='icons_name_sidebar'>
             <HomeOutlined className='icon'/>
             <p>Home</p>
           </div>
         </HashLink>
         
-        <HashLink to="#about">
+        <HashLink to="#about" onClick={()=>{
+            setOpen(false)
+        }}>
           <div className='icons_name_sidebar'>
             <PersonOutlineOutlined className='icon'/>
             <p>About</p>
           </div>
         </HashLink>
 
-        <HashLink to="#skill">
+        <HashLink to="#skill" onClick={()=>{
+            setOpen(false)
+        }}>
           <div className='icons_name_sidebar'>
             <LaptopOutlined className='icon'/>
             <p>Skills</p>
           </div>
         </HashLink>
 
-        <div className='icons_name_sidebar'>
-          <HomeRepairServiceOutlined className='icon'/>
-          <p>Works</p>
-        </div> <div className='icons_name_sidebar'>
-          <LocalPhoneOutlined className='icon'/>
-          <p>Contact</p>
-        </div>
+        <HashLink to="#works" onClick={()=>{
+            setOpen(false)
+        }}>
+          <div className='icons_name_sidebar'>
+            <HomeRepairServiceOutlined className='icon'/>
+            <p>Works</p>
+          </div>
+        </HashLink> 
+        
+        <HashLink to="#contact" onClick={()=>{
+            setOpen(false)
+        }}>
+          <div className='icons_name_sidebar'>
+            <LocalPhoneOutlined className='icon'/>
+            <p>Contact</p>
+          </div>
+        </HashLink>
+
       </div>
     </div>
   )

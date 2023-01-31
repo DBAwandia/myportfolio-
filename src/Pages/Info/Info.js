@@ -9,17 +9,20 @@ function Info() {
     <div className='Info' id='about'>
       <div className='info_container'>
       <TrackVisibility>
-      {/* {({isVisible})=> */}
-        <div className= "animate__animated animate__backInLeft some_info">
-            <h2>___</h2>
-            <p>Some info</p>
-        </div>
+              {({ isVisible }) =>
+              <div>
+              <div className= {isVisible ? "animate__animated animate__backInLeft some_info" : "some_info"}>
+                <h2>___</h2>
+                <p>Some info</p>
+              </div>
 
-        <div className='animate__animated animate__backInLeft info_header'>
-            <h1>ABOUT ME</h1>
-        </div>
-      {/* } */}
-        </TrackVisibility>
+              <div className={isVisible ? "animate__animated animate__backInLeft info_header":"info_header"}>
+                <h1>ABOUT ME</h1>
+              </div>
+              </div>
+              }
+      </TrackVisibility>
+      
         <div className='info_description'>
             <p>I'm a fullstack web developer 
             with a background in computer systems 

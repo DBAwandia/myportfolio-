@@ -1,5 +1,10 @@
 .works{
     width: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #8444df;
 }
 .works_container{
     display: flex;
@@ -66,15 +71,15 @@
     display: flex;
     align-items: center;
     gap: 3rem;
-    color: #8444df;
+    color: #8444df !important;
     font-size: 2rem;
     font-weight: bolder;
     cursor: pointer;
 }
-.repo_live > p{
+.repo_live > p > a{
     text-decoration: underline;
 }
-.repo_live > p:hover{
+.repo_live > p > a:hover{
     color: rgb(253, 112, 61);
 }
 @media screen and (max-width: 642px) {

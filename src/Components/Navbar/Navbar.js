@@ -33,13 +33,20 @@ function Navbar({setOpen}) {
           </div>
         </HashLink>
 
+        <HashLink to="#works">
         <div className='icons_name'>
           <HomeRepairServiceOutlined className='icon'/>
           <p>Works</p>
-        </div> <div className='icons_name'>
-          <LocalPhoneOutlined className='icon'/>
-          <p>Contact</p>
-        </div>
+        </div> 
+        </HashLink>
+
+        <HashLink to="#contact">
+          <div className='icons_name'>
+            <LocalPhoneOutlined className='icon'/>
+            <p>Contact</p>
+          </div>
+        </HashLink>
+
       </div>
       </div>
     </div>

@@ -1,23 +1,33 @@
 import React from 'react'
 import "./Works.css"
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
+
 function Works() {
   return (
-    <div className='works'>
+    <div className='works' id='works'>
       <div className='works_container'>
+      <TrackVisibility>
+              {({ isVisible }) =>
+              <div>
+              <div className= {isVisible ? "animate__animated animate__backInLeft some_info" : "some_info"}>
+                <h2>___</h2>
+                <p>Take a look at my</p>
+              </div>
 
-          <div className='some_info'>
-              <h2>___</h2>
-              <p>Take a look at my</p>
-          </div>
-          <div className='info_header'>
-              <h1>PROJECTS</h1>
-          </div>
-
+              <div className={isVisible ? "animate__animated animate__backInLeft info_header":"info_header"}>
+                <h1>PROJECTS</h1>
+              </div>
+              </div>
+              }
+      </TrackVisibility>
           <div className='project_container'>
           <div className='project_image'>
             <img src='/images/krypto.png' alt='image' className='krypto_image' />
           </div>
-          <div className='project_description'>
+
+         <TrackVisibility>
+         {({ isVisible }) => <div className='project_description'>
             <h1>Cryptocurrecy tracker</h1>
             <div className='technologies'>
               <p>Technologies used</p>
@@ -28,7 +38,7 @@ function Works() {
                 <li>MongoDB</li>
               </ul>
             </div>
-            <div className='technologies_description'>
+            <div className={isVisible ? "animate__animated animate__bounceInRight technologies_description" : "technologies_description"}>
               <ul>
                 <li>Completely built with hooks and functional components</li>
                 <li>Emulates time passage, and crypto prices update randomly as each "day" passes</li>
@@ -36,10 +46,12 @@ function Works() {
               </ul>
             </div>
             <div className='repo_live'>
-              <p>Live</p>
-              <p>Repo</p>
+              <p><a href='https://github.com/DBAwandia/kryptos.git'>Repo</a></p>
+              <p><a href="https://kryptoscoin.netlify.app">Live</a></p>
             </div>
-          </div>
+          </div>}
+         </TrackVisibility>
+
         </div>
 
         {/* 2 */}
@@ -47,7 +59,8 @@ function Works() {
           <div className='project_image'>
             <img src='/images/kryptos.png' alt='image' className='krypto_image' />
           </div>
-          <div className='project_description'>
+          <TrackVisibility>
+          {({ isVisible }) => <div className='project_description'>
             <h1>Admin dashboad</h1>
             <div className='technologies'>
               <p>Technologies used</p>
@@ -57,7 +70,7 @@ function Works() {
                 <li>Charts</li>
               </ul>
             </div>
-            <div className='technologies_description'>
+            <div className={isVisible ? "animate__animated animate__bounceInRight technologies_description" : "technologies_description"}>
               <ul>
                 <li>Admin can perform all CRUD (Create, Read, Update and Delete any information) operations</li>
                 <li>Admin Can access all important information</li>
@@ -65,13 +78,13 @@ function Works() {
               </ul>
             </div>
             <div className='repo_live'>
-              <p>Live</p>
-              <p>Repo</p>
+              <p><a href='https://github.com/DBAwandia/kryptoappadmin.git'>Repo</a></p>
+              <p><a href='https://kryptoappadmin.netlify.app'>Live</a></p>
             </div>
-          </div>
+          </div>}
+        </TrackVisibility>
+        
         </div>
-
-
         </div>
     </div>
   )

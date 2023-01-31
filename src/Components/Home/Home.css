@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 6rem;
 }
 .home_side_bar{
     position: fixed;

@@ -6,6 +6,7 @@ import Info from '../../Pages/Info/Info'
 import "./Home.css"
 import Skills from '../../Pages/Skills/Skills'
 import Works from '../../Pages/Works/Works'
+import Contact from '../../Pages/Contact/Contact'
 
 function Home() {
   const [ open, setOpen ] = useState(false)
@@ -30,6 +31,9 @@ function Home() {
       </div>
       <div className='Home_works'>
         <Works/>
+      </div>
+      <div className='Home_contact'>
+        <Contact/>
       </div>
     </div>
   )

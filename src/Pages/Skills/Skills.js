@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Skills.css"
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 function Skills() {
   const data = [
     {
@@ -62,14 +64,21 @@ function Skills() {
   return (
     <div className='Skills' id='skill'>
       <div className='Skills_container'>
-      <div className='some_info'>
-            <h2>___</h2>
+     <TrackVisibility>
+
+     {({ isVisible }) =>
+     <div>
+        <div className={isVisible ? "animate__animated animate__backInLeft some_info" : "some_info"}>
+                <h2>___</h2>
             <p>check out my</p>
         </div>
 
-        <div className='info_header'>
+        <div className={isVisible ? "animate__animated animate__backInLeft info_header":"info_header"}>
             <h1>SKILLS</h1>
         </div>
+     </div>
+     }
+     </TrackVisibility>
 
         <div className='skills_description'>
           <div className='skills_descriptions'>
@@ -83,7 +92,6 @@ function Skills() {
           </div>
         </div>
       </div>
-      
     </div>
   )
 }

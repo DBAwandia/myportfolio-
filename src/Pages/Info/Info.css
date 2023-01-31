@@ -31,6 +31,8 @@
 
 }
 .info_description{
+    box-sizing: border-box;
+
     border-radius: 50px;
     width: 80%;
     font-weight: bolder;
@@ -73,7 +75,7 @@
         font-weight: bolder;
         font-size: 0.95rem;
         line-height: 26px;
-        padding: 0rem 2rem;
+        padding: 0rem 0.5rem;
         background: transparent;
     }
 }
@@ -104,7 +106,7 @@
         /* margin-top: -3.5rem; */
         font-size: 0.95rem;
         line-height: 26px;
-        padding: 0rem 1.5em;
+        padding: 0rem 0.9em;
     }
 
 }
