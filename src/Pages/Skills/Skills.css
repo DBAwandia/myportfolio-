@@ -9,6 +9,11 @@
     flex-direction: column;
     gap: 6rem;
 }
+.some_info{
+    position: relative !important;
+    z-index: 999 !important;
+
+}
 .skills_description{
     border-radius: 50px;
     width: 90%;
