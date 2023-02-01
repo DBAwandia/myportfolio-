@@ -18,3 +18,14 @@
     top: 0;
     z-index: 999999999999999999999999999999999;
 }
+.Home_footer{
+    width: 100%;
+    text-align: center;
+    height: 2vh;
+    padding: 1rem 0px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: Poppins, sans-serif;
+    color: #333333;
+    background-color: white;
+}

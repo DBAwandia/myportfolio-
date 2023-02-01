@@ -35,6 +35,9 @@ function Home() {
       <div className='Home_contact'>
         <Contact/>
       </div>
+      <div className='Home_footer'>
+        <p>© 2023 Kennedy Wandia, Inc.</p>
+      </div>
     </div>
   )
 }

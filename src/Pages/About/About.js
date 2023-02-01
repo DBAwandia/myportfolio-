@@ -33,7 +33,11 @@ function About() {
               </p>
             </div>
             <div className='button_container'>
-                <button className='animate__animated animate__rubberBand  resume'>Resume</button>
+              <a href="/files/Resume.pdf" download>
+                <button className='animate__animated animate__rubberBand resume'>
+              Resumé
+              </button>
+              </a>
              <div className="animate__animated animate__fadeInBottomLeft iconz">
               <a href='https://www.linkedin.com/in/kennedy-wandia-618684216'>
                 <div className='icon_background'>

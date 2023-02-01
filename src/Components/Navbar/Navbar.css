@@ -8,7 +8,7 @@
 }
 a{
     text-decoration: none;
-    color: rgb(228, 225, 225);
+    /* color: rgb(228, 225, 225); */
 
 }
 .icons{
@@ -36,9 +36,12 @@ a{
 }
 .icon{
     font-size: 3.5rem !important;
+    color: rgb(228, 225, 225) !important;
 }
 .icons_name > p{
     font-size: 2.2rem;
+    color: rgb(228, 225, 225) !important;
+
 }
 @media screen and (max-width: 642px) {
     .Navbar{

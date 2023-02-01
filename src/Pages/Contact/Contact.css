@@ -42,6 +42,20 @@ form{
 input{
     padding-left: 3rem;
 }
+input:focus{
+    border:1px solid #4D90FE;
+-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
+-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
+box-shadow:0 1px 2px rgba(141, 66, 226, 0.3) inset;
+outline: none;
+}
+textarea:focus{
+    border:1px solid #4D90FE;
+-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
+-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
+box-shadow:0 1px 2px rgba(141, 66, 226, 0.3) inset;
+outline: none;
+}
 .inputs{
     border: 0.2px solid rgba(211, 211, 211,0.5);
     outline: 0;

@@ -12,6 +12,10 @@
     color: rgb(233, 230, 230);
     z-index: 999999999999999999999 !important;
 }
+.icons_name_sidebar > p{
+    color: rgb(228, 225, 225) !important;
+
+}
 .togle_close_sidebar{
     position: absolute;
     top: 0;
