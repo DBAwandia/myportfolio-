@@ -17,7 +17,7 @@
     width: 100%;
 }
 .Home_navbar{
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 9999999999999999999999999999999999999999999999 !important;
 }
