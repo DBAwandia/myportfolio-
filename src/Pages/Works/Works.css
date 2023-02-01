@@ -74,6 +74,7 @@ a{
     color: #8444df !important;
     font-size: 2rem;
     font-weight: bolder;
+    text-decoration: underline;
     cursor: pointer;
 }
 .repo_live > p > a{
