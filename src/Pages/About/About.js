@@ -24,7 +24,7 @@ function About() {
             </div>
 
             <div className='description'>
-              <p>A <span>Fullstack Website Developer</span>
+              <p>A <span>Fullstack Web Developer</span>
                     passionate about creating 
                     customized ,user-friendly websites
                     and applications using advanced 
