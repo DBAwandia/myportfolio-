@@ -13,6 +13,9 @@
     right: 0;
     z-index: 999999999999999;
 }
+.Home_about{
+    width: 100%;
+}
 .Home_navbar{
     position: sticky;
     top: 0;

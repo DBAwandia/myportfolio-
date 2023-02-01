@@ -75,6 +75,7 @@
         font-weight: bolder;
         font-size: 0.95rem;
         line-height: 26px;
+        margin-top: 0.4rem;
         padding: 0rem 0.5rem;
         background: transparent;
     }
@@ -106,7 +107,7 @@
         /* margin-top: -3.5rem; */
         font-size: 0.95rem;
         line-height: 26px;
-        padding: 0rem 0.9em;
+        padding: 1rem 0.9em;
     }
 
 }
@@ -138,6 +139,6 @@
         /* margin-top: -3.5rem; */
         font-size: 0.95rem;
         line-height: 26px;
-        padding: 0rem 1.5em;
+        padding: 0.5rem 1.5em;
     }
 }
