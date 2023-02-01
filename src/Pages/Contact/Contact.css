@@ -82,6 +82,7 @@ outline: none;
     align-self: flex-end;
     height: 7rem;
     font-size: 2.2rem;
+    border-radius: 50px;
 }
 @media screen and (max-width: 642px) {
     .Contact{
