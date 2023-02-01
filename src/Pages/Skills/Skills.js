@@ -35,7 +35,7 @@ function Skills() {
     }
     ,
     {
-      image: "https://res.cloudinary.com/wandia/image/upload/v1675150347/git_u2skmb.svg",
+      image: "https://res.cloudinary.com/wandia/image/upload/v1675150385/microsoft_c88rjh.svg",
       name:"M365"
     }
     ,

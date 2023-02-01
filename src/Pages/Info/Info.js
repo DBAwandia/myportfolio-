@@ -24,14 +24,11 @@ function Info() {
       </TrackVisibility>
       
         <div className='info_description'>
-            <p>I'm a fullstack web developer 
-            with a background in computer systems 
-            and network infrastructure. 
-            My 4+ years of IT experience has given me a strong foundation
-            for web development and building complex solutions. 
+            <p>I'm a fullstack website developer and designer,
+            with 4+ years experience in the field.I have built complex appplications and worked 
+            together with other developers.
             Recently, I am a Computer Science student at <span className='university'>University of Eldoret</span>. 
-            I am passionate about coding and solving problems through code, 
-            and I am excited to work alongside other amazing programmers and learn so much more!
+            I am passionate about coding and turning ideas into reality. 
             </p>
         </div>
 
