@@ -196,8 +196,8 @@
         width: 100%;
     }
     .profile_img{
-        width: 330px;
-        height: 330px;
+        width: 530px;
+        height: 530px;
         object-fit: cover;
         padding: 2rem 5.5rem;
     }
