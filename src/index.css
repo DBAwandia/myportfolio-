@@ -9,3 +9,7 @@ html{
     scroll-behavior: smooth !important;
     -webkit-tap-highlight-color:transparent;
 }
+#root{
+    min-height: 100vh;
+    width: 100%;
+}
