@@ -17,10 +17,16 @@
     width: 100%;
 }
 .Home_navbar{
-    /* position: sticky; */
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 9999999999999999999999999999999999999999999999 !important;
 }
+.Home_navbar_up{
+    top: 0;
+    display: none !important;
+}
+
 .Home_footer{
     width: 100%;
     text-align: center;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Navbar from '../Navbar/Navbar'
 import Sidebar from '../Sidebar/Sidebar'
 import About from "../../Pages/About/About"
@@ -7,15 +7,15 @@ import "./Home.css"
 import Skills from '../../Pages/Skills/Skills'
 import Works from '../../Pages/Works/Works'
 import Contact from '../../Pages/Contact/Contact'
+import 'animate.css';
 
 function Home() {
   const [ open, setOpen ] = useState(false)
   return (
     <div className='Home' id="home">
-      <div className='Home_navbar'>
+      <div className="animate__animated animate__fadeInDown Home_navbar">
         <Navbar setOpen={setOpen}/>
       </div>
-
       {open && <div className='home_side_bar'>
         <Sidebar setOpen={setOpen}/>
       </div>}
