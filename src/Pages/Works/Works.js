@@ -32,8 +32,8 @@ function Works() {
             <div className='technologies'>
               <p>Technologies used</p>
               <ul>
-                <li>React js</li>
-                <li>Node js</li>
+                <li>React </li>
+                <li>Node </li>
                 <li>Express</li>
                 <li>MongoDB</li>
               </ul>
@@ -65,7 +65,7 @@ function Works() {
             <div className='technologies'>
               <p>Technologies used</p>
               <ul>
-                <li>React js</li>
+                <li>React </li>
                 <li>Tables</li>
                 <li>Charts</li>
               </ul>
