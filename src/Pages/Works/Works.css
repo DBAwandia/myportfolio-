@@ -25,7 +25,7 @@ a{
     height: auto;
 }
 .krypto_image{
-    max-width: auto;
+    width: 90%;
     height: 100%;
     border-radius: 10px;
     object-fit: contain;
@@ -106,6 +106,7 @@ a{
         padding: 0;
     }
     .krypto_image{
+        width: 100%;
         height: auto;
         border-radius: 0px;
         object-fit: contain;
@@ -161,6 +162,8 @@ a{
         padding: 0;
     }
     .krypto_image{
+        width: 100%;
+        height: auto;
         border-radius: 0px;
         object-fit: contain;
     }
@@ -211,7 +214,7 @@ a{
     }
    
     .krypto_image{
-        max-width: auto;
+        width: 100%;
         border-radius: 0px;
         object-fit: contain;
     }
