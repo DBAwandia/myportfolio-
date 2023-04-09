@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 
 
 function About() {
-  let image="https://media.licdn.com/dms/image/D4D03AQFNymxm28bW-g/profile-displayphoto-shrink_200_200/0/1675019660312?e=1680739200&v=beta&t=pmhbuxC_h6fGe3MIZAOcKg_TBVMkFzam_E1M22LYlBA"
+  let image="https://media.licdn.com/dms/image/D4D03AQFNymxm28bW-g/profile-displayphoto-shrink_200_200/0/1675019660312?e=1686787200&v=beta&t=AXXqH3s6BYlxw-2MmCIts6pNe8QpXIJOnxd2y5ik30g"
   return (
     <div className="About" id='home'>
       <div className='About_container'>
