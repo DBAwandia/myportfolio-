@@ -89,7 +89,7 @@ function Works() {
         {/* 3 */}
         <div className='project_container'>
           <div className='project_image'>
-            <img src='/images/kryptos.png' alt='image' className='krypto_image' />
+            <img src='/images/phonepalace.png' alt='image' className='krypto_image' />
           </div>
           <TrackVisibility>
           {({ isVisible }) => <div className='project_description'>
