@@ -38,7 +38,7 @@ function Works() {
                 <li>MongoDB</li>
               </ul>
             </div>
-            <div className={isVisible ? "animate__animated animate__bounceInRight technologies_description" : "technologies_description"}>
+            <div className="technologies_description">
               <ul>
                 <li>Completely built with hooks and functional components</li>
                 <li>Emulates time passage, and crypto prices update randomly as each "day" passes</li>
@@ -70,7 +70,7 @@ function Works() {
                 <li>Charts</li>
               </ul>
             </div>
-            <div className={isVisible ? "animate__animated animate__bounceInRight technologies_description" : "technologies_description"}>
+            <div className="technologies_description">
               <ul>
                 <li>Admin can perform all CRUD (Create, Read, Update and Delete any information) operations</li>
                 <li>Admin Can access all important information</li>
@@ -105,7 +105,7 @@ function Works() {
 
               </ul>
             </div>
-            <div className={isVisible ? "animate__animated animate__bounceInRight technologies_description" : "technologies_description"}>
+            <div className="technologies_description">
               <ul>
                 <li>Product browsing and search: Customers can browse through a catalog of products and search for specific items using keywords or filters.</li>
                 <li>Product details and reviews: Customers can view detailed product descriptions, photos, and reviews to help them make informed purchasing decisions.</li>
