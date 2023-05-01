@@ -38,3 +38,29 @@
     color: #333333;
     background-color: white;
 }
+@media screen and (max-width: 642px) {
+
+.small_screen{
+    display: block;
+}
+.large_screen{
+    display: none;
+}
+}
+
+@media screen and (max-width: 1007px) and (min-width: 642px) {
+    .small_screen{
+        display: block;
+    }
+    .large_screen{
+        display: none;
+    }
+}
+@media screen and  (min-width: 1009px) and (max-width: 2400px){
+    .small_screen{
+        display: none;
+    }
+    .large_screen{
+        display: block;
+    }
+}

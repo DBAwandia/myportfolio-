@@ -1,5 +1,6 @@
 .Info{
     width: 100%;
+    min-height: 0vh;
     overflow: hidden;
 
 }

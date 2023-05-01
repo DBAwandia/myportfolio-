@@ -1,5 +1,6 @@
 .Navbar{
     width: 100%;
+    font-weight: bold;
     height: 15vh;
     background-color: #8444df;
     color: rgb(228, 225, 225);
@@ -45,7 +46,7 @@ a{
 }
 @media screen and (max-width: 642px) {
     .Navbar{
-        height: 10vh;
+        height: 6.5vh;
         
     }
     .Navbar_container{
@@ -74,7 +75,7 @@ a{
 }
 @media screen and (max-width: 1007px) and (min-width: 642px) {
     .Navbar{
-        height: 10vh;
+        height: 7vh;
         
     }
     .Navbar_container{

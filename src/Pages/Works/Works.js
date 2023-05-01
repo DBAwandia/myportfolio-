@@ -85,6 +85,42 @@ function Works() {
         </TrackVisibility>
         
         </div>
+
+        {/* 3 */}
+        <div className='project_container'>
+          <div className='project_image'>
+            <img src='/images/kryptos.png' alt='image' className='krypto_image' />
+          </div>
+          <TrackVisibility>
+          {({ isVisible }) => <div className='project_description'>
+            <h1>E-commerce app</h1>
+            <div className='technologies'>
+              <p>Technologies used</p>
+              <ul>
+                <li>React </li>
+                <li>Socket io</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+
+              </ul>
+            </div>
+            <div className={isVisible ? "animate__animated animate__bounceInRight technologies_description" : "technologies_description"}>
+              <ul>
+                <li>Product browsing and search: Customers can browse through a catalog of products and search for specific items using keywords or filters.</li>
+                <li>Product details and reviews: Customers can view detailed product descriptions, photos, and reviews to help them make informed purchasing decisions.</li>
+                <li>Wish list: Customers can save products to their wish list for future purchase consideration.</li>
+                <li>Realtime chat messaging: Customers can talk with sellers on real time chat application and give real time feedbacks.</li>
+              </ul>
+            </div>
+            <div className='repo_live'>
+              <p><a href='https://github.com/DBAwandia/marketplace.git'>Repo</a></p>
+              <p><a href='https://phonepalace.netlify.app'>Live</a></p>
+            </div>
+          </div>}
+        </TrackVisibility>
+        
+        </div>
         </div>
     </div>
   )

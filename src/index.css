@@ -13,3 +13,18 @@ html{
     min-height: 100vh;
     width: 100%;
 }
+
+.showFootbarOnscrollCss{
+    width: 100%;
+    z-index: 99999999999999999999999999999999;
+    position: fixed;
+    top: 0px;
+  }
+  .hideFootbarOnscrollCss{
+    width: 100%;
+    z-index: 99999999999999999999999999999999;
+    position: fixed;
+    top: -100px;
+  
+  }
+  

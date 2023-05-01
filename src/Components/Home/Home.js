@@ -11,9 +11,42 @@ import 'animate.css';
 
 function Home() {
   const [ open, setOpen ] = useState(false)
+
+     // show and hide Footbar
+     const [show, setShow] = useState(true);
+     const [lastScrollY, setLastScrollY] = useState(0);
+   
+     const controlNavbar = () => {
+       if (typeof window !== 'undefined') { 
+         if (window.scrollY < lastScrollY) { // if scroll up hide the navbar
+           setShow(true); 
+         } else { // if scroll down show the navbar
+           setShow(false);  
+         }
+   
+         // remember current page location to use in the next move
+         setLastScrollY(window.scrollY); 
+       }
+     };
+   
+     useEffect(() => {
+       if (typeof window !== 'undefined') {
+         window.addEventListener('scroll', controlNavbar);
+   
+         // cleanup function
+         return () => {
+           window.removeEventListener('scroll', controlNavbar);
+         };
+       }
+     }, [lastScrollY]);
+
   return (
     <div className='Home' id="home">
-      <div className="animate__animated animate__fadeInDown Home_navbar">
+      <div className={show ? "small_screen showFootbarOnscrollCss animate__animated animate__slideInDown lg:hidden w-full z-[999999999999999999999999999]" : "small_screen animate__animated animate__slideInUp hideFootbarOnscrollCss lg:hidden w-full z-[999999999999999999999999999]" }>
+        <Navbar setOpen={setOpen}/>
+      </div>
+
+      <div className='large_screen'>
         <Navbar setOpen={setOpen}/>
       </div>
       {open && <div className='home_side_bar'>
