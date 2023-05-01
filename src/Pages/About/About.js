@@ -33,7 +33,7 @@ function About() {
               </p>
             </div>
             <div className='button_container'>
-              <a href="/files/Resume.pdf" download>
+              <a href="https://drive.google.com/file/d/13PX1RrCOlJq0NozR-R5RYYm1o4q6hQs7/view?usp=share_link">
                 <button className='animate__animated animate__rubberBand resume'>
               Resumé
               </button>
